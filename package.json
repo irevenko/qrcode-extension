@@ -1,0 +1,28 @@
+{
+  "name": "qrcode-extension",
+  "version": "1.0.0",
+  "description": "A QR Code Chrome Extension",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irevenko/qrcode-extension.git"
+  },
+  "keywords": [
+    "QR Code",
+    "Extension"
+  ],
+  "author": "Ilya Revenko <ilya.revenko17@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/irevenko/qrcode-extension/issues"
+  },
+  "homepage": "https://github.com/irevenko/qrcode-extension#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
