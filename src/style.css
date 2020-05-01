@@ -1,5 +1,22 @@
-#main { 
-    height: 300px;
-    width: 260px;
-    background-color: teal;
+#extension   { 
+    background-color: #f8f8f8;
+    width: 400px;
+    height: 550px;
 }
+
+#qr-button { 
+    margin-top: 10px;
+}
+
+#qrcode { 
+    margin-top: 30px;
+    width: 82%;
+    margin: 0 auto;
+}
+
+#qr-input { 
+    margin-top: 5px;
+    background-color: #f8f8f8;
+}
+
+a {font-size: 110%;}
