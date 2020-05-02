@@ -1,7 +1,7 @@
 {
   "manifest_version":  2,
-  "name": "Grape QR Code",
-  "description": "Quick and Simple QR Code Creator🍇",
+  "name": "Grape QRCode",
+  "description": "Quick and Simple QR Code Creator/Reader🍇",
   "version": "1.0.0",
   "icons": { "128": "images/big_icon.png" },
   "browser_action": {

@@ -1,11 +1,12 @@
 #extension   { 
     background-color: #f8f8f8;
     width: 400px;
-    height: 550px;
+    height: 600px;
 }
 
-#qr-button { 
+#qr-button{ 
     margin-top: 10px;
+    width: 50%;
 }
 
 #qrcode { 
@@ -14,9 +15,36 @@
     margin: 0 auto;
 }
 
-#qr-input { 
+#qr-input, #file { 
     margin-top: 5px;
     background-color: #f8f8f8;
 }
 
-a {font-size: 110%;}
+#a-download, #a-read, #a-source { 
+  font-size: 110%;
+  text-align: center;
+}
+
+#a-return { 
+  font-size: 120%;
+}
+
+#content { 
+    word-wrap: break-word;
+}
+
+h2 { 
+    text-align: center;
+}
+
+span, p { 
+    font-size: 113%;
+}
+
+#qr-data { 
+ margin-top: 15px;   
+}
+
+input[type=file] { 
+  color: #5755D9;     
+}

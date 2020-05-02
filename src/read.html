@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
-    <script src="../lib/qrcode.js" defer></script>
-    <script src="index.js" defer></script>
+    <script src="../lib/qrReader.js" defer></script>
   </head>
   <body>
     <main>
@@ -20,17 +19,14 @@
             <h2>🍇Grape QRCode</h2>
           </div>
         </div>
+         <a href="popup.html" id="a-return" class="text-bold">⬅️Go Back</a>
         <div class="card-body">
-          <div class="form-group">
-            <span class="label label-secondary"><b>Enter your data</b></span>
-            <textarea class="form-input" id="qr-input" rows="2"></textarea>
-            <button class="btn btn-lg btn-primary p-centered" id="qr-button"><strong>Generate</strong> 🔳</button>
-          </div>
-          <div class="p-centered" id="qrcode"></div>
-          <a href="#" id="a-download" class="p-centered text-bold text-large">⬇️Download Code</a>
-          <a href="read.html" id="a-read" class="p-centered text-bold text-large">🔎Read Code</a>
-        </div>
-      <a href="https://github.com/irevenko/qrcode-extension" target="_blank" class="p-centered text-bold text-large" id="a-source">✨Source Code</a>
+        <span class="label label-secondary"><strong>Choose your QRCode</strong></span>
+          <input class="form-input" type="file" id="file" name="file">
+          <p id="qr-data"><strong class="text-primary" id="data">QR Data: </strong><span id="content"></span></p>
+        <br>
+        </div>     
+        <a href="https://github.com/irevenko/qrcode-extension" target="_blank" class="p-centered text-bold" id="a-source">✨Source Code</a>
       </div>
     </main>
   </body>
