@@ -3,7 +3,7 @@
 <p align="center"><img src="https://i.imgur.com/DK0m3Yh.png"></p> 
 <p align="center">Purple, Grape 🍇 themed Quick Response Code Generator for Chrome </p>
 <p align="center">I wanted to learn how QR Code works, so i decided to make an extension for it.</p>
-<p align="center">You can Create and Download QR Code, and also Read QR Code.</p>
+<p align="center">You can Create (with max capacity of 500) and Download QR Code, and also Read QR Code.</p>
 <p align="center">The Extension is built using <a href="https://github.com/davidshimjs/qrcodejs">qrcodejs</a> and
  <a href="https://github.com/nimiq/qr-scanner">qr-scanner</a></p>
 
@@ -13,7 +13,7 @@
 </a>
 
 # Preview 🔍
-<img src="https://i.imgur.com/DzcTEMt.jpg" width="300"> <img src="https://i.imgur.com/YXppO51.jpg" width="300">
+<img src="https://i.imgur.com/wnnURAa.jpg" > <img src="https://i.imgur.com/IvRaEqf.jpg">
 
 
 # Quick Start 🚀

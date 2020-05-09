@@ -3,7 +3,9 @@
   "name": "Grape QRCode",
   "description": "Quick and Simple QR Code Creator/Reader🍇",
   "version": "1.0.0",
-  "icons": { "128": "images/big_icon.png" },
+  "icons": { "128": "images/big_icon.png",
+              "48": "images/icon.png" ,
+              "16": "images/icon.png"},
   "browser_action": {
     "default_icon": "images/icon.png",
     "default_popup": "src/popup.html"

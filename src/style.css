@@ -18,11 +18,13 @@
 #qr-input, #file { 
     margin-top: 5px;
     background-color: #f8f8f8;
+    resize: none;
 }
 
 #a-download, #a-read, #a-source { 
   font-size: 110%;
   text-align: center;
+  color: #5755D9;
 }
 
 #a-return { 
